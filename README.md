@@ -142,7 +142,7 @@ roda "eternamente". Portanto, se pensarmos no código com apenas uma função, t
 #include "util/delay.h"
 
 int main(){
-  DDRB |= (1 << 5);        // Declara o pino como saída
+  DDRB |= (1 << 5);          // Declara o pino como saída
 
   while(1){
     PORTB ^= (1 << 5);       // Permuta o LED
